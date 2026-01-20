@@ -6,7 +6,7 @@ function renderProducts() {
     const div = document.createElement("div");
     div.className = "product";
     div.innerHTML = `
-      <img src="${p.qr}" alt="QR för ${p.name}">
+      <img src="${p.image}" alt="Bild på ${p.name}">
       <h3>${p.name}</h3>
       <p class="description">${p.description}</p>
       <p>${p.price} SEK</p>
@@ -24,3 +24,4 @@ function goToCheckout(id) {
 }
 
 renderProducts();
+
