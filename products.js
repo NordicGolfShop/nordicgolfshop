@@ -9,8 +9,8 @@ const products = [
       da: "Golf Driver Pro"
     },
     price: 2999,
-    stock: 5, // antal i lager
-    qr: "https://i.postimg.cc/XXXX/driver-001.png" // byt ut med din Postimages-länk
+    stock: 5,
+    qr: "https://i.postimg.cc/XXXX/driver-001.png"
   },
   {
     id: "iron-002",
