@@ -8,6 +8,7 @@ function renderProducts() {
     div.innerHTML = `
       <img src="${p.qr}" alt="QR för ${p.name[currentLang]}">
       <h3>${p.name[currentLang]}</h3>
+      <p class="description">${p.description[currentLang]}</p>
       <p>${p.price} SEK</p>
       <p>${translations.stock[currentLang]}: ${p.stock}</p>
       <button onclick="goToCheckout('${p.id}')">${translations.buy[currentLang]}</button>
