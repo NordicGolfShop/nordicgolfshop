@@ -120,6 +120,13 @@ main.hero .btn:hover {
   text-align: center;
 }
 
+.product .description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 6px 0;
+  text-align: center;
+}
+
 .product p {
   margin: 4px 0;
   font-size: 0.95rem;
