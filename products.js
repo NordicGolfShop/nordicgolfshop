@@ -1,6 +1,6 @@
 const products = [
   {
-    id: "driver-001",
+    id: "bollar-001",
     name: "Golf Driver Pro",
     price: 2999,
     stock: 5,
