@@ -43,5 +43,5 @@ const products = [
     image: "https://i.postimg.cc/ZnvsDZFh/existerarejjj.jpg",
     qr: "https://i.postimg.cc/Yqr722B9/existerarejjj.png",
     description: "Stryckepris för 40 stycken golfpeggar."
-  },
+  }
 ];
