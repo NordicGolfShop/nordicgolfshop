@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>NordicGolfShop - Produkter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">⛳ Butik</div>
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="products.html">Produkter</a>
+    <a href="checkout.html">Check Out</a>
+    <select onchange="setLanguage(this.value)">
+      <option value="sv">SV</option>
+      <option value="en">EN</option>
+      <option value="fi">FI</option>
+      <option value="no">NO</option>
+      <option value="da">DA</option>
+    </select>
+  </nav>
+</header>
+
+<main class="product-grid" id="products"></main>
+
+<footer>
+  <p>Nordic Golf Shop © </p>
+</footer>
+
+<script src="products.js"></script>
+<script src="i18n.js"></script>
+<script src="script-products.js"></script>
+</body>
+</html>
