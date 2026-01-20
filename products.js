@@ -14,7 +14,7 @@ const products = [
     price: 180,
     stock: 2,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
-    qr: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
+    qr: "https://i.postimg.cc/T1DBCPSq/swish-QR-small.png",
     description: "Perfekt järnklubba för kontroll och precision."
   },
   {
