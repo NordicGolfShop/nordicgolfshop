@@ -1,52 +1,126 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 20px;
-  background: #f8f8f8;
+  background: #f1f3f6;
+  color: #333;
 }
 
 header {
+  background: #1a73e8;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  padding: 15px 30px;
 }
 
-h1 {
-  margin: 0;
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header select {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+main.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #4285f4, #34a853);
+  color: white;
+}
+
+main.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+main.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #fbbc05;
+  color: #333;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #e0a800;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
 }
 
 .product {
-  border: 1px solid #ddd;
-  background: #fff;
+  background: white;
+  border-radius: 10px;
   padding: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 120px;
   margin-bottom: 10px;
-  border-radius: 8px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
 }
 
 button {
-  padding: 8px 12px;
-  cursor: pointer;
-  background: #28a745;
+  padding: 10px 20px;
+  background: #1a73e8;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 button:hover {
-  background: #218838;
+  background: #155ab6;
 }
 
-#checkout {
-  margin-top: 30px;
-  border-top: 2px solid #ccc;
-  padding-top: 20px;
-  background: #fff;
+footer {
+  text-align: center;
   padding: 20px;
-  border-radius: 8px;
+  background: #202124;
+  color: white;
+  margin-top: 50px;
 }
 
-#checkout img {
-  display: block;
-  margin-bottom: 15px;
+.checkout {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
