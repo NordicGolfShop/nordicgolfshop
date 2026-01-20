@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Nordic Golf Shop - Checkout</title>
+  <title>Golfbutik - Check Out</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,21 +25,25 @@
 
 <main class="checkout">
   <h2>Check Out</h2>
-  <p id="swishText">Swish + Fyll i Information</p>
-  <img id="qr" alt="Swish QR" width="200">
-  
-  <form action="https://formspree.io/f/XXXXXX" method="POST">
-    <input type="hidden" name="product" id="orderProduct">
-    <input type="hidden" name="price" id="orderPrice">
-    <input required name="name" placeholder="Namn">
-    <input required name="email" type="email" placeholder="Email">
-    <input required name="address" placeholder="Adress">
-    <button type="submit">Skicka order</button>
+
+  <!-- Steg 1: Kundinfo -->
+  <form id="infoForm">
+    <input required id="name" name="name" placeholder="Namn">
+    <input required id="email" name="email" type="email" placeholder="Email">
+    <input required id="address" name="address" placeholder="Adress">
+    <button type="submit">Skicka och gå vidare</button>
   </form>
+
+  <!-- Steg 2: QR (dolt tills info skickats) -->
+  <div id="qrSection" style="display:none; text-align:center; margin-top:20px;">
+    <p id="swishText">Swisha beloppet med QR-koden nedan</p>
+    <img id="qr" alt="Swish QR" width="200">
+    <p>Notera att ordern har skickats till oss!</p>
+  </div>
 </main>
 
 <footer>
-  <p>© Nordic Golf Shop ©</p>
+  <p>© 2026 Golfbutik. Alla rättigheter reserverade.</p>
 </footer>
 
 <script src="products.js"></script>
