@@ -4,7 +4,7 @@ const products = [
     name: "Golfbollar 8 Pack",
     price: 100,
     stock: 3,
-    qr: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
+    qr: "https://i.postimg.cc/02dn8xdn/swish-QR-small-(3).png",
     description: "En kraftfull driver för långa slag."
   },
   {
