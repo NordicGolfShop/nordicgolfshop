@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Golfbutik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="title">Golfbutik</h1>
+
+  <select onchange="setLanguage(this.value)">
+    <option value="sv">SV</option>
+    <option value="en">EN</option>
+    <option value="fi">FI</option>
+    <option value="no">NO</option>
+    <option value="da">DA</option>
+  </select>
+</header>
+
+<main id="products"></main>
+
+<section id="checkout">
+  <h2 id="swishText"></h2>
+
+  <img id="qr" alt="Swish QR" width="200">
+
+  <form action="https://formspree.io/f/XXXXXX" method="POST">
+    <input type="hidden" name="product" id="orderProduct">
+    <input type="hidden" name="price" id="orderPrice">
+
+    <input required name="name" placeholder="Namn">
+    <input required name="email" type="email" placeholder="Email">
+    <input required name="address" placeholder="Adress">
+
+    <button type="submit">Skicka order</button>
+  </form>
+</section>
+
+<script src="products.js"></script>
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
