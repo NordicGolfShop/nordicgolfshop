@@ -47,34 +47,39 @@ header select {
   background: #fff;
 }
 
-/* --- Hero / Startsida --- */
+/* --- Hero / Startsida (neutral premium) --- */
 main.hero {
   text-align: center;
-  padding: 80px 20px;
-  background: #f0f0f0;
+  padding: 100px 20px;
+  background: #f7f7f7; /* neutral bakgrund */
   color: #1a1a1a;
 }
 
 main.hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 main.hero p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   margin-bottom: 25px;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.btn {
+main.hero .btn {
   background: #0070f3;
   color: #fff;
   padding: 12px 25px;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   transition: background 0.2s;
 }
 
-.btn:hover {
+main.hero .btn:hover {
   background: #005bb5;
 }
 
@@ -153,6 +158,27 @@ main.hero p {
   text-align: center;
 }
 
+/* Stegindikator */
+.checkout-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.checkout-steps .step {
+  flex: 1;
+  padding: 10px;
+  background: #f0f0f0;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #888;
+}
+.checkout-steps .step.active {
+  background: #0070f3;
+  color: #fff;
+}
+
+/* Formulär */
 .checkout form input {
   width: 100%;
   padding: 12px 15px;
