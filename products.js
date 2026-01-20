@@ -4,6 +4,7 @@ const products = [
     name: "Golfbollar 8 Pack",
     price: 100,
     stock: 3,
+    image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/02dn8xdn/swish-QR-small-(3).png",
     description: "En kraftfull driver för långa slag."
   },
@@ -12,6 +13,7 @@ const products = [
     name: "Golfbollar 12 Pack",
     price: 180,
     stock: 2,
+    image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     description: "Perfekt järnklubba för kontroll och precision."
   },
@@ -20,6 +22,7 @@ const products = [
     name: "Golfbollar 20 Pack",
     price: 290,
     stock: 1,
+    image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/Yqr722B9/golfbollar20.png",
     description: "En klassisk putter för stabila puttar."
   }
