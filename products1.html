@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Nordic Golf Shop - Produkter</title>
+  <title>Nordic Golf Shop – Produkter</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,24 +12,32 @@
   <nav>
     <a href="index.html">Hem</a>
     <a href="products1.html">Produkter</a>
-    <select onchange="setLanguage(this.value)">
-      <option value="sv">SV</option>
-      <option value="en">EN</option>
-      <option value="fi">FI</option>
-      <option value="no">NO</option>
-      <option value="da">DA</option>
-    </select>
+    <a href="checkout.html">Check Out</a>
   </nav>
 </header>
 
-<main class="product-grid" id="products"></main>
+<main>
+
+  <!-- Sökfält -->
+  <div class="search-wrapper">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Sök produkter..."
+      onkeyup="searchProducts()"
+    >
+  </div>
+
+  <!-- Produkter -->
+  <div class="product-grid" id="products"></div>
+
+</main>
 
 <footer>
-  <p>Nordic Golf Shop 2026-2029 © </p>
+  <p>Nordic Golf Shop 2026–2029 ©</p>
 </footer>
 
 <script src="products.js"></script>
-<script src="i18n.js"></script>
 <script src="script-products.js"></script>
 </body>
 </html>
