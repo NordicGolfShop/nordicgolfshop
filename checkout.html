@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Nordic Golf Shop - Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">⛳ Golfbutik</div>
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="products.html">Produkter</a>
+    <a href="checkout.html">Check Out</a>
+    <select onchange="setLanguage(this.value)">
+      <option value="sv">SV</option>
+      <option value="en">EN</option>
+      <option value="fi">FI</option>
+      <option value="no">NO</option>
+      <option value="da">DA</option>
+    </select>
+  </nav>
+</header>
+
+<main class="checkout">
+  <h2>Check Out</h2>
+  <p id="swishText">Swish + Fyll i Information</p>
+  <img id="qr" alt="Swish QR" width="200">
+  
+  <form action="https://formspree.io/f/XXXXXX" method="POST">
+    <input type="hidden" name="product" id="orderProduct">
+    <input type="hidden" name="price" id="orderPrice">
+    <input required name="name" placeholder="Namn">
+    <input required name="email" type="email" placeholder="Email">
+    <input required name="address" placeholder="Adress">
+    <button type="submit">Skicka order</button>
+  </form>
+</main>
+
+<footer>
+  <p>© Nordic Golf Shop ©</p>
+</footer>
+
+<script src="products.js"></script>
+<script src="i18n.js"></script>
+<script src="script-checkout.js"></script>
+</body>
+</html>
