@@ -25,5 +25,23 @@ const products = [
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/Yqr722B9/golfbollar20.png",
     description: "Stryckepris för 20 stycken golfbollar."
-  }
+  },
+  {
+    id: "peggar-001",
+    name: "Golfpeggar 20st",
+    price: 45,
+    stock: 0,
+    image: "https://i.postimg.cc/ZnvsDZFh/existerarejjj.jpg",
+    qr: "https://i.postimg.cc/T1DBCPSq/existerarejjj.png",
+    description: "Styckepris för 20 stycken golfpeggar."
+  },
+  {
+    id: "peggar-002",
+    name: "Golfpeggar 40st",
+    price: 95,
+    stock: 0,
+    image: "https://i.postimg.cc/ZnvsDZFh/existerarejjj.jpg",
+    qr: "https://i.postimg.cc/Yqr722B9/existerarejjj.png",
+    description: "Stryckepris för 40 stycken golfpeggar."
+  },
 ];
