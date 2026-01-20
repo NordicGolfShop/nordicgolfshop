@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.product {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#checkout {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#checkout img {
+  display: block;
+  margin-bottom: 15px;
+}
