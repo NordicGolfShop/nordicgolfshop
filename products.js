@@ -20,7 +20,7 @@ const products = [
     name: "Golfbollar 20 Pack",
     price: 290,
     stock: 1,
-    qr: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
+    qr: "https://i.postimg.cc/Yqr722B9/golfbollar20.png",
     description: "En klassisk putter för stabila puttar."
   }
 ];
