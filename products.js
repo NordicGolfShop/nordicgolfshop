@@ -2,24 +2,24 @@ const products = [
   {
     id: "bollar-001",
     name: "Golfbollar 8 Pack",
-    price: 2999,
-    stock: 5,
+    price: 100,
+    stock: 3,
     qr: "https://i.postimg.cc/XXXX/driver-001.png",
     description: "En kraftfull driver för långa slag."
   },
   {
-    id: "iron-002",
-    name: "Järnklubba Precision",
-    price: 1499,
-    stock: 8,
+    id: "bollar-002",
+    name: "Golfbollar 12 Pack",
+    price: 180,
+    stock: 2,
     qr: "https://i.postimg.cc/XXXX/iron-002.png",
     description: "Perfekt järnklubba för kontroll och precision."
   },
   {
-    id: "putter-003",
-    name: "Putter Classic",
-    price: 999,
-    stock: 12,
+    id: "bollar-003",
+    name: "Golfbollar 20 Pack",
+    price: 290,
+    stock: 1,
     qr: "https://i.postimg.cc/XXXX/putter-003.png",
     description: "En klassisk putter för stabila puttar."
   }
