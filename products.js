@@ -52,5 +52,32 @@ const products = [
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
     description: "Slut i lager."
+  },
+  {
+    id: "notexisting-002",
+    name: "Slut",
+    price: 1,
+    stock: 0,
+    image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
+    qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
+    description: "Slut i lager."
+  },
+  {
+    id: "notexisting-003",
+    name: "Slut",
+    price: 1,
+    stock: 0,
+    image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
+    qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
+    description: "Slut i lager."
+  },
+  {
+    id: "notexisting-004",
+    name: "Slut",
+    price: 1,
+    stock: 0,
+    image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
+    qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
+    description: "Slut i lager."
   }
 ];
