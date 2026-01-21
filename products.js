@@ -49,8 +49,8 @@ const products = [
     name: "Slut",
     price: 1,
     stock: 0,
-    image: "https://i.postimg.cc/GhrxsSbz/peggr.webp",
-    qr: "https://i.postimg.cc/B60XwkYM/notexissstinnngggg.png",
+    image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
+    qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
     description: "Slut i lager."
   }
 ];
