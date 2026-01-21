@@ -29,7 +29,7 @@ const products = [
   {
     id: "peggar-001",
     name: "Golfpeggar 20st",
-    price: 45,
+    price: 30,
     stock: 4,
     image: "https://i.postimg.cc/GhrxsSbz/peggar.webp",
     qr: "https://i.postimg.cc/B60XwkYM/swish-QR-large.png",
@@ -38,7 +38,7 @@ const products = [
   {
     id: "peggar-002",
     name: "Golfpeggar 40st",
-    price: 95,
+    price: 60,
     stock: 2,
     image: "https://i.postimg.cc/GhrxsSbz/peggar.webp",
     qr: "https://i.postimg.cc/tCSnCrJ6/swish-QR-large-(1).png",
