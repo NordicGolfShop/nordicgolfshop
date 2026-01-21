@@ -7,13 +7,25 @@ function renderProducts() {
     const div = document.createElement("div");
     div.className = "product";
 
+    const isOut = p.stock === 0;
+
     div.innerHTML = `
-      <img src="${p.image}" alt="${p.name}">
+      <div class="product-image-wrapper">
+        <img src="${p.image}" alt="${p.name}">
+        ${isOut ? '<div class="sold-out">✕</div>' : ''}
+      </div>
+
       <h3>${p.name}</h3>
       <p class="description">${p.description}</p>
       <p>${p.price} SEK</p>
       <p>I lager: ${p.stock}</p>
-      <button onclick="goToCheckout('${p.id}')">Köp</button>
+
+      <button
+        ${isOut ? 'disabled class="disabled"' : ''}
+        ${!isOut ? `onclick="goToCheckout('${p.id}')"` : ''}
+      >
+        ${isOut ? 'Slutsåld' : 'Köp'}
+      </button>
     `;
 
     productsEl.appendChild(div);
