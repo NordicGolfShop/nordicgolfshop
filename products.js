@@ -46,11 +46,11 @@ const products = [
   },
   {
     id: "notexisting-001",
-    name: "Golfpeggar 20st",
-    price: 45,
-    stock: 4,
+    name: "Slut",
+    price: 1,
+    stock: 0,
     image: "https://i.postimg.cc/GhrxsSbz/peggr.webp",
     qr: "https://i.postimg.cc/B60XwkYM/notexissstinnngggg.png",
-    description: "Styckepris för 20 stycken golfpeggar."
+    description: "Slut i lager."
   }
 ];
