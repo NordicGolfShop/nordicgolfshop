@@ -1,9 +1,9 @@
 const productsEl = document.getElementById("products");
 
-function renderProducts(list = products) {
+function renderProducts() {
   productsEl.innerHTML = "";
 
-  list.forEach(p => {
+  products.forEach(p => {
     const div = document.createElement("div");
     div.className = "product";
 
@@ -24,18 +24,6 @@ function goToCheckout(id) {
   const product = products.find(p => p.id === id);
   localStorage.setItem("selectedProduct", JSON.stringify(product));
   window.location.href = "checkout.html";
-}
-
-/* SÖK */
-function searchProducts() {
-  const query = document.getElementById("searchInput").value.toLowerCase();
-
-  const filtered = products.filter(p =>
-    p.name.toLowerCase().includes(query) ||
-    p.description.toLowerCase().includes(query)
-  );
-
-  renderProducts(filtered);
 }
 
 renderProducts();
