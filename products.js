@@ -56,7 +56,7 @@ const products = [
   {
     id: "notexisting-002",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
@@ -65,7 +65,7 @@ const products = [
   {
     id: "notexisting-003",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
@@ -74,7 +74,7 @@ const products = [
   {
     id: "notexisting-004",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
@@ -83,7 +83,7 @@ const products = [
   {
     id: "notexisting-005",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
@@ -92,7 +92,7 @@ const products = [
   {
     id: "notexisting-006",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
@@ -101,7 +101,7 @@ const products = [
   {
     id: "notexisting-007",
     name: "Slut",
-    price: 1,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
