@@ -2,7 +2,7 @@ const products = [
   {
     id: "bollar-001",
     name: "Golfbollar 8 Pack",
-    price: 100,
+    price: 95,
     stock: 14,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/02dn8xdn/swish-QR-small-(3).png",
@@ -11,7 +11,7 @@ const products = [
   {
     id: "bollar-002",
     name: "Golfbollar 12 Pack",
-    price: 180,
+    price: 160,
     stock: 12,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/T1DBCPSq/swish-QR-small.png",
@@ -20,7 +20,7 @@ const products = [
   {
     id: "bollar-003",
     name: "Golfbollar 20 Pack",
-    price: 290,
+    price: 275,
     stock: 6,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/Yqr722B9/golfbollar20.png",
