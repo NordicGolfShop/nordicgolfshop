@@ -30,18 +30,18 @@ const products = [
     id: "peggar-001",
     name: "Golfpeggar 20st",
     price: 45,
-    stock: 0,
-    image: "https://i.postimg.cc/ZnvsDZFh/existerarejjj.jpg",
-    qr: "https://i.postimg.cc/T1DBCPSq/existerarejjj.png",
+    stock: 4,
+    image: "https://i.postimg.cc/GhrxsSbz/peggar.webp",
+    qr: "https://i.postimg.cc/B60XwkYM/swish-QR-large.png",
     description: "Styckepris för 20 stycken golfpeggar."
   },
   {
     id: "peggar-002",
     name: "Golfpeggar 40st",
     price: 95,
-    stock: 0,
-    image: "https://i.postimg.cc/ZnvsDZFh/existerarejjj.jpg",
-    qr: "https://i.postimg.cc/Yqr722B9/existerarejjj.png",
+    stock: 2,
+    image: "https://i.postimg.cc/GhrxsSbz/peggar.webp",
+    qr: "https://i.postimg.cc/tCSnCrJ6/swish-QR-large-(1).png",
     description: "Stryckepris för 40 stycken golfpeggar."
   }
 ];
