@@ -2,7 +2,7 @@ const products = [
   {
     id: "bollar-001",
     name: "Golfbollar 8 Pack",
-    price: 95,
+    price: 115,
     stock: 14,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/02dn8xdn/swish-QR-small-(3).png",
@@ -11,7 +11,7 @@ const products = [
   {
     id: "bollar-002",
     name: "Golfbollar 12 Pack",
-    price: 160,
+    price: 175,
     stock: 12,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/T1DBCPSq/swish-QR-small.png",
@@ -20,7 +20,7 @@ const products = [
   {
     id: "bollar-003",
     name: "Golfbollar 20 Pack",
-    price: 275,
+    price: 290,
     stock: 6,
     image: "https://i.postimg.cc/ZnvsDZFh/golfbollar.jpg",
     qr: "https://i.postimg.cc/Yqr722B9/golfbollar20.png",
@@ -29,7 +29,7 @@ const products = [
   {
     id: "peggar-001",
     name: "Golfpeggar 20st",
-    price: 25,
+    price: 40,
     stock: 4,
     image: "https://i.postimg.cc/d379vnTf/output-onlinepngtools.png",
     qr: "https://i.postimg.cc/B60XwkYM/swish-QR-large.png",
@@ -38,7 +38,7 @@ const products = [
   {
     id: "peggar-002",
     name: "Golfpeggar 40st",
-    price: 45,
+    price: 75,
     stock: 2,
     image: "https://i.postimg.cc/d379vnTf/output-onlinepngtools.png",
     qr: "https://i.postimg.cc/tCSnCrJ6/swish-QR-large-(1).png",
