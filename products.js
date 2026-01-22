@@ -83,7 +83,7 @@ const products = [
   {
     id: "notexisting-005",
     name: "Slut",
-    price: 0 + Frakt,
+    price: 0,
     stock: 0,
     image: "https://i.postimg.cc/GhrsSbz/pegr.webp",
     qr: "https://i.postimg.cc/B60wkYM/notexissstinnngggg.png",
