@@ -1,6 +1,6 @@
 // Supabase-klient
-const SUPABASE_URL = 'DIN_SUPABASE_URL';
-const SUPABASE_KEY = 'DIN_ANON_KEY';
+const SUPABASE_URL = 'https://lzjwxivlpfnwyrmongeq.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6and4aXZscGZud3lybW9uZ2VxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk1MDAwOTcsImV4cCI6MjA4NTA3NjA5N30.TNy02Ws56ij4q8h1FOD1xWIH3Hcir_niVZAoXCQzcYI';
 const supabase = Supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const productsEl = document.getElementById("products");
