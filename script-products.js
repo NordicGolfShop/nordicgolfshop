@@ -1,6 +1,26 @@
+// Supabase-klient
+const SUPABASE_URL = 'DIN_SUPABASE_URL';
+const SUPABASE_KEY = 'DIN_ANON_KEY';
+const supabase = Supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
 const productsEl = document.getElementById("products");
 
-function renderProducts() {
+async function loadProducts() {
+  const { data: products, error } = await supabase
+    .from('products')
+    .select('*')
+    .order('created_at', { ascending: true });
+
+  if (error) {
+    console.error('Fel vid hämtning:', error);
+    productsEl.innerHTML = "<p>Produkter kunde inte laddas.</p>";
+    return;
+  }
+
+  renderProducts(products);
+}
+
+function renderProducts(products) {
   productsEl.innerHTML = "";
 
   products.forEach(p => {
@@ -10,20 +30,14 @@ function renderProducts() {
     const isOut = p.stock === 0;
 
     div.innerHTML = `
-      <div class="product-image-wrapper">
-        <img src="${p.image}" alt="${p.name}">
-        ${isOut ? '<div class="sold-out">✕</div>' : ''}
-      </div>
-
+      ${isOut ? '<div class="sold-out">✕</div>' : ''}
+      <img src="${p.image}" alt="${p.name}">
       <h3>${p.name}</h3>
       <p class="description">${p.description}</p>
       <p>${p.price} SEK</p>
       <p>I lager: ${p.stock}</p>
-
       <button
-        ${isOut ? 'disabled class="disabled"' : ''}
-        ${!isOut ? `onclick="goToCheckout('${p.id}')"` : ''}
-      >
+        ${isOut ? 'disabled' : `onclick="goToCheckout('${p.id}')"`}>
         ${isOut ? 'Slutsåld' : 'Köp'}
       </button>
     `;
@@ -33,9 +47,9 @@ function renderProducts() {
 }
 
 function goToCheckout(id) {
-  const product = products.find(p => p.id === id);
-  localStorage.setItem("selectedProduct", JSON.stringify(product));
+  localStorage.setItem("selectedProduct", JSON.stringify({ id }));
   window.location.href = "checkout.html";
 }
 
-renderProducts();
+// Kör när sidan laddas
+loadProducts();
